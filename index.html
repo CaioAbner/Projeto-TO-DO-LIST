@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>To-Do List</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="box">
+      <form id="formTarefas">
+        <div id="divForm">
+          <label id="legenda" for="nomeTarefa">DIGITE UMA TAREFA:</label>
+          <input type="text" placeholder="Digite aqui.." name="nomeTarefa" id="nomeTarefa" required>
+        </div>
+        <button id="btn_add">Adicionar</button>
+      </form>
+      <h4 id="tituloLista">LISTA DE TAREFAS:</h4>
+      <ul id="ulDasTarefas"></ul>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
